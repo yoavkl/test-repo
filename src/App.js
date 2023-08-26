@@ -14,7 +14,7 @@ const App = () => {
 
     const updateCalc = (val) => {
         if (
-            (operators.includes(val) && calc === '') ||
+            (operators.includes(val) && calc == '') ||
             (operators.includes(val) && operators.includes(calc.slice(-1)))
         ) {
             return;
